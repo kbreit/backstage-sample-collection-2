@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "another_collection"
+  description: An Ansible collection
+  tags:
+    - ansible
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
+spec:
+  type: collection
+  owner: user:guest
+  lifecycle: experimental
